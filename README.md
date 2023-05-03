@@ -12,4 +12,4 @@
 
 Работу выполнил Линар Халиков. 
 
-Ссылка на проект: git@github.com:Dospapados/russian-travel.git
+Ссылка на проект: https://dospapados.github.io/russian-travel/index.html
