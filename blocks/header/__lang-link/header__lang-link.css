@@ -1,0 +1,10 @@
+.header__lang-link {
+    list-style-type: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+    cursor: url(../../../vendor/Imported\ Layers\ Copy\ 4.svg);
+}

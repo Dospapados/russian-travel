@@ -1,0 +1,38 @@
+.cover__item {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 1;
+  aspect-ratio: 16/10;
+  cursor: url(../../../vendor/Imported\ Layers\ Copy\ 4.svg);
+}
+
+.cover__item::after {
+  content: '';
+  position: absolute;
+  background: #2A2C2F;
+  opacity: .3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity .3s ease-in-out;
+}
+
+.cover__item:hover::after {
+  opacity: .8;
+}
+
+@media screen and (max-width: 650px) {
+  .cover__item {
+    width: 100%;
+    text-align: center;
+  }
+}
